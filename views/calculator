@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic HTML</title>
+	<link rel="icon" href="Barbie7_L.ico">
+	<link rel="stylesheet" type="text/css" href="css/calculator.css">
+</head>
+<body>
+	<div class="first">
+		Enter First Number: 
+		<input type="int" id="fn" />
+	</div>
+	
+	<div class="second">
+		Enter Second Number:
+		<input type="int" id="sn" />
+	</div>
+	
+	<div> Sum is <span id ="answer"></span></div>
+	
+	<button onclick="addMe()">Add Me</button>
+
+	<script type="text/javascript" src="js/calculator.js">
+		
+	</script>
+</body>
+</html>
