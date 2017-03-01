@@ -14,8 +14,8 @@ app.get('/', function(req, res){
 app.get('/about', function(req, res){
   res.sendFile(path.join(__dirname, 'views/about.html'));
 });
-app.get('*', function(req, res){
-  res.status(404).sendFile(path.join(__dirname, 'views/404.html'));
+app.get('/calculator', function(req, res){
+  res.status(404).sendFile(path.join(__dirname, 'views/calculator.html'));
 });
 //express server listen
 var server = app.listen(app.get('port'), function(){
